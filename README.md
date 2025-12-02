@@ -275,7 +275,7 @@ public class MainActivity extends AppCompatActivity {
 
         <Button
             android:id="@+id/mul"
-            android:text="×"
+            android:text="*"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -320,7 +320,7 @@ public class MainActivity extends AppCompatActivity {
 
         <Button
             android:id="@+id/sub"
-            android:text="−"
+            android:text="-"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -374,7 +374,7 @@ public class MainActivity extends AppCompatActivity {
             android:backgroundTint="@color/yellow"
             android:textColor="@color/black" />
 
-        <!-- Row 5 (Clear button) -->
+        <!-- Row 5 (Clear Button) -->
         <Button
             android:id="@+id/clear_text"
             android:text="C"
@@ -390,6 +390,7 @@ public class MainActivity extends AppCompatActivity {
     </GridLayout>
 
 </LinearLayout>
+
 ```
 ## OUTPUT
 
